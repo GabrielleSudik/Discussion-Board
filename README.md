@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+You're adding your own note here.
+This is my first Ruby on Rails project!
+March 10, 2018
