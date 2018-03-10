@@ -18,6 +18,14 @@ class TopicsController < ApplicationController
   def supertopic
   end
 
+  #you're adding this one to allow people to vote for a topic
+  def upvote
+    @topic = Topic.find(params[:id])
+    @topic.votes.create
+    redirect_to(topics_path)
+  end
+
+
   # GET /topics/new
   def new
     @topic = Topic.new
