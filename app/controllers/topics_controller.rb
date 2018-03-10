@@ -12,6 +12,12 @@ class TopicsController < ApplicationController
   def show
   end
 
+# you added the next thing in class.
+# it's the function that goes along with the new supertopics route in routes.rb
+# this will allow your program to go to a new view(?)
+  def supertopic
+  end
+
   # GET /topics/new
   def new
     @topic = Topic.new
